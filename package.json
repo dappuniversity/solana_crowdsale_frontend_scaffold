@@ -1,5 +1,5 @@
 {
-  "name": "dappu_solana_crowdsale_frontend_scaffold",
+  "name": "solana-crowdsale-interface",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,13 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.1.6",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
-  "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "eslint": "^9",
-    "eslint-config-next": "15.1.6"
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/spl-token": "^0.4.9",
+    "@solana/web3.js": "^1.95.3",
+    "next": "14.2.15",
+    "react": "^18",
+    "react-dom": "^18"
   }
 }
